@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manula Fernando - CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-flex">
+                    <!-- Profile Picture -->
+                    <div class="profile-picture">
+                        <img src="profile.jpg" alt="Manula Fernando" class="profile-img">
+                    </div>
+
+                    <!-- Header Content -->
+                    <div class="header-text">
+                        <h1 class="main-title">MANULA FERNANDO</h1>
+                        <div class="title-underline"></div>
+                        <p class="subtitle">Data Science Undergraduate</p>
+                        <button class="contact-btn" onclick="handleContactClick()">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            Contact Me
+                        </button>
+			<button class="contact-btn" onclick="window.open('Manula-Fernando-CV.pdf')">
+    				<svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" >
+        			<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        			<polyline points="7 10 12 15 17 10"></polyline>
+        			<line x1="12" y1="15" x2="12" y2="3"></line>
+   			    </svg>
+    			    Download CV
+			</button>
+                    </div>
+                </div>
+
+                <!-- Contact Info Grid -->
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-label">ADDRESS</div>
+                        <div class="contact-value">No.99/A Sri Chandrasekara road, Horethuduwa, Moratuwa, 10400, Sri Lanka</div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-label">PHONE</div>
+                        <div class="contact-value">+94 71 545 8497</div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-label">EMAIL</div>
+                        <div class="contact-value">wwmsfernando@gmail.com</div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-label">LINKS</div>
+                        <div class="contact-links">
+                            <a href="https://www.linkedin.com/in/manula-fernando-483875283/" target="_blank" class="contact-link">
+                                <svg class="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15,3 21,3 21,9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                LinkedIn
+                            </a>
+                            <a href="https://github.com/Manula-Fernando" target="_blank" class="contact-link">
+                                <svg class="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15,3 21,3 21,9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="nav-tabs">
+            <div class="nav-container">
+                <button class="tab-btn active" data-tab="profile">Profile</button>
+                <button class="tab-btn" data-tab="education">Education</button>
+                <button class="tab-btn" data-tab="skills">Skills</button>
+                <button class="tab-btn" data-tab="activities">Activities</button>
+                <button class="tab-btn" data-tab="projects">Projects</button>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <!-- Profile Tab -->
+            <section id="profile" class="tab-content active">
+                <h2 class="section-title">PROFILE</h2>
+                <div class="content-card">
+                    <p class="profile-text">
+                        I am a penultimate year undergraduate in Data Science with strong analytical, technical, and
+                        interpersonal skills. Highly motivated, dependable, and passionate about data, technology, and business
+                        operations. Proven ability to collaborate in cross-functional teams, contribute to strategic
+                        initiatives, and adapt to fast-paced environments. Fluent in English and well-versed in MS Office tools.
+                        Eager to learn, innovate, and forward-thinking culture.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Education Tab -->
+            <section id="education" class="tab-content">
+                <h2 class="section-title">EDUCATION</h2>
+                <div class="education-list">
+                    <div class="education-item">
+                        <h3 class="education-title">UNDERGRADUATE | NATIONAL INSTITUTE OF BUSINESS MANAGEMENT</h3>
+                        <p class="education-date">MARCH 2023 - PRESENT</p>
+                        <ul class="education-details">
+                            <li>• Completed the Advance diploma in Data science (equivalent to first year) with Merit in February 2024.</li>
+                            <li>• Three years program where the bachelor's in data science (Hons) is awarded by Coventry University UK.</li>
+                        </ul>
+                    </div>
+
+                    <div class="education-item">
+                        <h3 class="education-title">TRAINING COURSE ON DATA SCIENCE WITH PYTHON</h3>
+                        <p class="education-date">UNIVERSITY OF COLOMBO SCHOOL OF COMPUTING | 8 WEEKS</p>
+                        <p class="education-details">• Successfully completed after completing a machine learning project for the final assessment.</p>
+                    </div>
+
+                    <div class="education-item">
+                        <h3 class="education-title">DIPLOMA OF EDUCATION, INFORMATION TECHNOLOGY</h3>
+                        <p class="education-date">BRITISH COLLEGE OF APPLIED STUDIES, COLOMBO 03 | DECEMBER 2019 - JUNE 2020</p>
+                    </div>
+
+                    <div class="education-item">
+                        <h3 class="education-title">HIGH SCHOOL DIPLOMA (PHYSICAL SCIENCE STREAM)</h3>
+                        <p class="education-date">ST. SEBASTIAN'S COLLEGE, MORATUWA</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Tab -->
+            <section id="skills" class="tab-content">
+                <div class="skills-grid">
+                    <!-- Technical Skills -->
+                    <div class="technical-skills">
+                        <h2 class="section-title">TECHNICAL SKILLS</h2>
+                        
+                        <div class="skill-category">
+                            <h3 class="category-title">Programming Languages</h3>
+                            <div class="skills-row">
+                                <div class="skill-card" data-skill="python">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <polyline points="16,18 22,12 16,6"></polyline>
+                                                <polyline points="8,6 2,12 8,18"></polyline>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">Python</h4>
+                                    </div>
+                                    <p class="skill-desc">NumPy, Pandas, Matplotlib, Seaborn, Scipy, Keras, Scikit Learn, TensorFlow, Statsmodels</p>
+                                </div>
+                                <div class="skill-card" data-skill="r">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">R Programming</h4>
+                                    </div>
+                                    <p class="skill-desc">Statistical computing and graphics</p>
+                                </div>
+                                <div class="skill-card" data-skill="sql">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">SQL</h4>
+                                    </div>
+                                    <p class="skill-desc">Database querying and management</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3 class="category-title">Tools & Platforms</h3>
+                            <div class="skills-row">
+                                <div class="skill-card" data-skill="git">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <line x1="6" y1="3" x2="6" y2="15"></line>
+                                                <circle cx="18" cy="6" r="3"></circle>
+                                                <circle cx="6" cy="18" r="3"></circle>
+                                                <path d="M18 9a9 9 0 0 1-9 9"></path>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">Git & GitHub</h4>
+                                    </div>
+                                    <p class="skill-desc">Version control and collaboration</p>
+                                </div>
+                                <div class="skill-card" data-skill="jupyter">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <polyline points="4,17 10,11 4,5"></polyline>
+                                                <line x1="12" y1="19" x2="20" y2="19"></line>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">Jupyter</h4>
+                                    </div>
+                                    <p class="skill-desc">Interactive development environment</p>
+                                </div>
+                                <div class="skill-card" data-skill="aws">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">AWS</h4>
+                                    </div>
+                                    <p class="skill-desc">Cloud computing platform</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3 class="category-title">Databases</h3>
+                            <div class="skills-row">
+                                <div class="skill-card" data-skill="mysql">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">MySQL</h4>
+                                    </div>
+                                    <p class="skill-desc">Relational database management</p>
+                                </div>
+                                <div class="skill-card" data-skill="mongodb">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">MongoDB</h4>
+                                    </div>
+                                    <p class="skill-desc">NoSQL document database</p>
+                                </div>
+                                <div class="skill-card" data-skill="postgresql">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">PostgreSQL</h4>
+                                    </div>
+                                    <p class="skill-desc">Advanced relational database</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3 class="category-title">Data Visualization</h3>
+                            <div class="skills-row">
+                                <div class="skill-card" data-skill="powerbi">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">PowerBI</h4>
+                                    </div>
+                                    <p class="skill-desc">Business intelligence and reporting</p>
+                                </div>
+                                <div class="skill-card" data-skill="tableau">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">Tableau</h4>
+                                    </div>
+                                    <p class="skill-desc">Data visualization and analytics</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="soft-skills">
+                        <h2 class="section-title">SOFT SKILLS</h2>
+                        <div class="content-card">
+                            <div class="soft-skills-list">
+                                <div class="soft-skill-item">
+                                    <div class="skill-dot"></div>
+                                    <span>Communication</span>
+                                </div>
+                                <div class="soft-skill-item">
+                                    <div class="skill-dot"></div>
+                                    <span>Teamwork</span>
+                                </div>
+                                <div class="soft-skill-item">
+                                    <div class="skill-dot"></div>
+                                    <span>Leadership skills</span>
+                                </div>
+                                <div class="soft-skill-item">
+                                    <div class="skill-dot"></div>
+                                    <span>Risk Management</span>
+                                </div>
+                                <div class="soft-skill-item">
+                                    <div class="skill-dot"></div>
+                                    <span>Time Management</span>
+                                </div>
+                                <div class="soft-skill-item">
+                                    <div class="skill-dot"></div>
+                                    <span>Adaptability</span>
+                                </div>
+                                <div class="soft-skill-item">
+                                    <div class="skill-dot"></div>
+                                    <span>Attention to Detail</span>
+                                </div>
+                                <div class="soft-skill-item">
+                                    <div class="skill-dot"></div>
+                                    <span>Problem solving</span>
+                                </div>
+                                <div class="soft-skill-item">
+                                    <div class="skill-dot"></div>
+                                    <span>Networking</span>
+                                </div>
+                                <div class="soft-skill-item">
+                                    <div class="skill-dot"></div>
+                                    <span>Negotiation skills</span>
+                                </div>
+                                <div class="soft-skill-item">
+                                    <div class="skill-dot"></div>
+                                    <span>Decision making</span>
+                                </div>
+                                <div class="soft-skill-item">
+                                    <div class="skill-dot"></div>
+                                    <span>Presentation skills</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Activities Tab -->
+            <section id="activities" class="tab-content">
+                <h2 class="section-title">ACTIVITIES & INTERESTS</h2>
+                <div class="activities-list">
+                    <div class="activity-item">
+                        <p>• Executive Committee member President of the Data Scientist's Club of NIBM (2024 - Present)</p>
+                    </div>
+                    <div class="activity-item">
+                        <p>• Committee member of the Rotaract Club of NIBM (2024 - Present)</p>
+                    </div>
+                    <div class="activity-item">
+                        <p>• Following AWS Cloud Foundations preparation course at University of Moratuwa.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Tab -->
+            <section id="projects" class="tab-content">
+    <h2 class="section-title">PROJECT HIGHLIGHTS</h2>
+    <div class="projects-list">
+        <!-- Project 1 -->
+        <div class="project-item">
+            <h3 class="project-title">Machine Learning Model for Classification</h3>
+            <p class="project-subtitle">UCSC Training Course Final Project</p>
+            <button class="project-toggle-btn" data-target="project-1-details">View Details</button>
+            <div id="project-1-details" class="project-details" style="display: none;">
+                <p class="project-desc">Developed and implemented a classification model using Scikit-learn to predict customer churn. The project involved data cleaning, feature engineering, and model evaluation, achieving an accuracy of 85%.</p>
+                <p><b>Technologies Used:</b> Python, Pandas, Scikit-learn, Matplotlib</p>
+                <a href="https://github.com/Manula-Fernando?tab=repositories" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-item">
+            <h3 class="project-title">Academic Data Science Projects</h3>
+            <p class="project-subtitle">NIBM Academic Projects</p>
+            <button class="project-toggle-btn" data-target="project-2-details">View Details</button>
+            <div id="project-2-details" class="project-details" style="display: none;">
+                 <p class="project-desc">A comprehensive portfolio including Data Analysis, Machine Learning, Dashboarding, and Deep Learning projects completed during academic studies. This includes a sales dashboard in PowerBI and a sentiment analysis model using TensorFlow.</p>
+                <p><b>Technologies Used:</b> Tableu, PowerBI, HTML, SQL, R, Python</p>
+                 <a href="https://github.com/Manula-Fernando?tab=repositories" target="_blank" class="project-link">Explore on GitHub</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>References available upon request</p>
+            </footer>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
