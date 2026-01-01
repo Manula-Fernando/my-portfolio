@@ -17,6 +17,7 @@ This repository contains the source code for my personal digital CV and portfoli
 ## 🌐 Live Demo
 
 **Check out the live version here:** [https://Manula-Fernando.com](https://manula-fernando.github.io/my-portfolio/)
+Manula Fernando
 
 ---
 
