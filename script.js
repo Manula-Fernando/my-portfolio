@@ -129,6 +129,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     setTimeout(typeWriter, 500);
   }
+
+  particlesJS.load('particles-js', 'particles-config.js', function() {
+    console.log('callback - particles.js config loaded');
+  });
 });
 
 

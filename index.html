@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="particles-js"></div>
     <div class="container">
         <!-- Header Section -->
         <header class="header">
@@ -21,7 +22,12 @@
                     <div class="header-text">
                         <h1 class="main-title">MANULA FERNANDO</h1>
                         <div class="title-underline"></div>
-                        <p class="subtitle">Data Science Undergraduate</p>
+                        <p class="subtitle">AI Intern @ LOLC Technologies | BSc Data Science Student (Coventry University & NIBM) | AI, Machine Learning, LLMs & Big Data Enthusiast</p>
+                        <div class="logos">
+                            <img src="img/lolc-logo.png" alt="LOLC Technologies Logo" class="logo-img">
+                            <img src="img/nibm-logo.png" alt="NIBM Logo" class="logo-img">
+                            <img src="img/coventry-logo.png" alt="Coventry University Logo" class="logo-img">
+                        </div>
                         <button class="contact-btn" onclick="handleContactClick()">
                             <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -83,10 +89,12 @@
         <nav class="nav-tabs">
             <div class="nav-container">
                 <button class="tab-btn active" data-tab="profile">Profile</button>
+                <button class="tab-btn" data-tab="experience">Experience</button>
                 <button class="tab-btn" data-tab="education">Education</button>
                 <button class="tab-btn" data-tab="skills">Skills</button>
-                <button class="tab-btn" data-tab="activities">Activities</button>
                 <button class="tab-btn" data-tab="projects">Projects</button>
+                <button class="tab-btn" data-tab="certifications">Certifications</button>
+                <button class="tab-btn" data-tab="activities">Activities</button>
             </div>
         </nav>
 
@@ -96,12 +104,30 @@
                 <h2 class="section-title">PROFILE</h2>
                 <div class="content-card">
                     <p class="profile-text">
-                        I am a penultimate year undergraduate in Data Science with strong analytical, technical, and
-                        interpersonal skills. Highly motivated, dependable, and passionate about data, technology, and business
-                        operations. Proven ability to collaborate in cross-functional teams, contribute to strategic
-                        initiatives, and adapt to fast-paced environments. Fluent in English and well-versed in MS Office tools.
-                        Eager to learn, innovate, and forward-thinking culture.
+                        I’m an AI Intern at LOLC Technologies and a BSc (Hons) Data Science student at Coventry University (NIBM, Sri Lanka). Passionate about Machine Learning, NLP, and LLMs, I enjoy building AI solutions that turn data into real impact. Skilled in Python, SQL, Spark, Tableau, and cloud tools, I’m eager to keep learning, innovating, and growing into a professional AI engineer and data scientist.
                     </p>
+                </div>
+            </section>
+
+            <!-- Experience Tab -->
+            <section id="experience" class="tab-content">
+                <h2 class="section-title">Experience</h2>
+                <div class="education-list">
+                    <div class="education-item">
+                        <h3 class="education-title">AI Intern</h3>
+                        <p class="education-date">LOLC Technologies · Internship | Sep 2025 - Present · 5 mos</p>
+                        <p class="education-details">Contributing to AI-driven solutions in the finance and technology domain, focusing on machine learning, large language models, and cloud-based applications. Gaining hands-on experience with real-world data and enterprise AI systems at LOLC Technologies.</p>
+                    </div>
+                    <div class="education-item">
+                        <h3 class="education-title">Undergraduate</h3>
+                        <p class="education-date">National Institute of Business Management (NIBM - Sri Lanka) · Full-time | Mar 2023 - Present · 2 yrs 11 mos</p>
+                        <p class="education-details">As an undergraduate in Data Science at NIBM (affiliated with Coventry University), I have developed a solid foundation in key areas such as Machine Learning, Natural Language Processing, and Artificial Intelligence. My coursework and projects have equipped me with practical skills in programming languages including Python and R, and proficiency in essential libraries like NumPy, Pandas, Scikit-Learn, TensorFlow, and Keras. I have gained experience working with big data technologies such as AWS, Hadoop, and PySpark, and have applied statistical modeling, data cleaning, feature engineering, and hypothesis testing techniques to real-world datasets. Additionally, I am skilled in data visualization using tools like Dash, Power BI, and Tableau, enabling me to communicate complex data insights effectively. Beyond technical expertise, I have honed my teamwork, leadership, and communication skills through active participation in university clubs and collaborative projects. This comprehensive learning experience has prepared me to tackle interdisciplinary challenges and contribute meaningfully in industrial placements.</p>
+                    </div>
+                    <div class="education-item">
+                        <h3 class="education-title">Part Time Exam Invigilator</h3>
+                        <p class="education-date">ACBT · Part-time | May 2025 - Present · 9 mos</p>
+                        <p class="education-details">As a dedicated Part-Time Exam Invigilator at ACBT Colombo, I ensure fair and smooth exam conduct with a strong focus on 🎯 academic integrity and 🧩 attention to detail. From setting up rooms 🪑 to verifying IDs 🆔 and monitoring test-takers 👁️‍🗨️, I uphold strict exam protocols 📋 and maintain a calm, focused environment 🌟. 💼 Proud to support student success and ACBT’s commitment to excellence. 🤝 Open to opportunities in educational admin & exam supervision.</p>
+                    </div>
                 </div>
             </section>
 
@@ -110,28 +136,33 @@
                 <h2 class="section-title">EDUCATION</h2>
                 <div class="education-list">
                     <div class="education-item">
-                        <h3 class="education-title">UNDERGRADUATE | NATIONAL INSTITUTE OF BUSINESS MANAGEMENT</h3>
-                        <p class="education-date">MARCH 2023 - PRESENT</p>
-                        <ul class="education-details">
-                            <li>• Completed the Advance diploma in Data science (equivalent to first year) with Merit in February 2024.</li>
-                            <li>• Three years program where the bachelor's in data science (Hons) is awarded by Coventry University UK.</li>
-                        </ul>
+                        <h3 class="education-title">Bachelor of Science Degree(Hons), Data Science</h3>
+                        <p class="education-date">NATIONAL INSTITUTE OF BUSINESS MANAGEMENT (NIBM - SRI LANKA) | 2023 - 2026</p>
                     </div>
 
                     <div class="education-item">
-                        <h3 class="education-title">TRAINING COURSE ON DATA SCIENCE WITH PYTHON</h3>
-                        <p class="education-date">UNIVERSITY OF COLOMBO SCHOOL OF COMPUTING | 8 WEEKS</p>
-                        <p class="education-details">• Successfully completed after completing a machine learning project for the final assessment.</p>
+                        <h3 class="education-title">AWS Cloud Foundations Preparation Course, Cloud Computing</h3>
+                        <p class="education-date">UNIVERSITY OF MORATUWA | Apr 2025 - Aug 2025</p>
                     </div>
 
                     <div class="education-item">
-                        <h3 class="education-title">DIPLOMA OF EDUCATION, INFORMATION TECHNOLOGY</h3>
-                        <p class="education-date">BRITISH COLLEGE OF APPLIED STUDIES, COLOMBO 03 | DECEMBER 2019 - JUNE 2020</p>
+                        <h3 class="education-title">Training Course on Data Science with Python</h3>
+                        <p class="education-date">UNIVERSITY OF COLOMBO SCHOOL OF COMPUTING | Sep 2023 - Nov 2023</p>
                     </div>
 
                     <div class="education-item">
-                        <h3 class="education-title">HIGH SCHOOL DIPLOMA (PHYSICAL SCIENCE STREAM)</h3>
-                        <p class="education-date">ST. SEBASTIAN'S COLLEGE, MORATUWA</p>
+                        <h3 class="education-title">Advanced Level, Physical Sciences</h3>
+                        <p class="education-date">ST. SEBASTIAN'S COLLEGE | Feb 2007 - Mar 2023</p>
+                    </div>
+
+                    <div class="education-item">
+                        <h3 class="education-title">Diploma of Education, Information Technology</h3>
+                        <p class="education-date">BCAS CAMPUS | Dec 2019 - Jun 2020</p>
+                    </div>
+
+                    <div class="education-item">
+                        <h3 class="education-title">Certificate Program, English Language and Literature, General</h3>
+                        <p class="education-date">BCAS CAMPUS | Dec 2019</p>
                     </div>
                 </div>
             </section>
@@ -144,7 +175,43 @@
                         <h2 class="section-title">TECHNICAL SKILLS</h2>
                         
                         <div class="skill-category">
-                            <h3 class="category-title">Programming Languages</h3>
+                            <h3 class="category-title">AI/ML</h3>
+                            <div class="skills-row">
+                                <div class="skill-card" data-skill="ai">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">Artificial Intelligence</h4>
+                                    </div>
+                                    <p class="skill-desc">AI Agents, Compound AI Systems, Deep Learning, Neural Networks, TensorFlow, PyTorch, MLOps, Computer Vision, Document Data Extraction</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3 class="category-title">Data Science/Big Data</h3>
+                            <div class="skills-row">
+                                <div class="skill-card" data-skill="data-science">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                            </svg>
+                                        </div>
+                                        <h4 class="skill-name">Data Science</h4>
+                                    </div>
+                                    <p class="skill-desc">Data Engineering, Big Data, Apache Spark, Apache Kafka, Hadoop, MapReduce, Data Analysis, Data Modeling, Data Visualization, MongoDB</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3 class="category-title">Programming/Tools</h3>
                             <div class="skills-row">
                                 <div class="skill-card" data-skill="python">
                                     <div class="skill-header">
@@ -156,7 +223,6 @@
                                         </div>
                                         <h4 class="skill-name">Python</h4>
                                     </div>
-                                    <p class="skill-desc">NumPy, Pandas, Matplotlib, Seaborn, Scipy, Keras, Scikit Learn, TensorFlow, Statsmodels</p>
                                 </div>
                                 <div class="skill-card" data-skill="r">
                                     <div class="skill-header">
@@ -169,7 +235,6 @@
                                         </div>
                                         <h4 class="skill-name">R Programming</h4>
                                     </div>
-                                    <p class="skill-desc">Statistical computing and graphics</p>
                                 </div>
                                 <div class="skill-card" data-skill="sql">
                                     <div class="skill-header">
@@ -182,14 +247,7 @@
                                         </div>
                                         <h4 class="skill-name">SQL</h4>
                                     </div>
-                                    <p class="skill-desc">Database querying and management</p>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="skill-category">
-                            <h3 class="category-title">Tools & Platforms</h3>
-                            <div class="skills-row">
                                 <div class="skill-card" data-skill="git">
                                     <div class="skill-header">
                                         <div class="skill-icon">
@@ -202,20 +260,29 @@
                                         </div>
                                         <h4 class="skill-name">Git & GitHub</h4>
                                     </div>
-                                    <p class="skill-desc">Version control and collaboration</p>
                                 </div>
-                                <div class="skill-card" data-skill="jupyter">
+                                 <div class="skill-card" data-skill="docker">
                                     <div class="skill-header">
                                         <div class="skill-icon">
-                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                                <polyline points="4,17 10,11 4,5"></polyline>
-                                                <line x1="12" y1="19" x2="20" y2="19"></line>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-archive"><polyline points="21 8 21 21 3 21 3 8"></polyline><rect x="1" y="3" width="22" height="5"></rect><line x1="10" y1="12" x2="14" y2="12"></line></svg>
                                         </div>
-                                        <h4 class="skill-name">Jupyter</h4>
+                                        <h4 class="skill-name">Docker</h4>
                                     </div>
-                                    <p class="skill-desc">Interactive development environment</p>
                                 </div>
+                                <div class="skill-card" data-skill="dvc">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                                        </div>
+                                        <h4 class="skill-name">DVC</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3 class="category-title">Cloud</h3>
+                            <div class="skills-row">
                                 <div class="skill-card" data-skill="aws">
                                     <div class="skill-header">
                                         <div class="skill-icon">
@@ -225,84 +292,44 @@
                                         </div>
                                         <h4 class="skill-name">AWS</h4>
                                     </div>
-                                    <p class="skill-desc">Cloud computing platform</p>
+                                </div>
+                                 <div class="skill-card" data-skill="azure">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cloud"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+                                        </div>
+                                        <h4 class="skill-name">Azure</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
+                        
                         <div class="skill-category">
-                            <h3 class="category-title">Databases</h3>
+                            <h3 class="category-title">Web Development</h3>
                             <div class="skills-row">
-                                <div class="skill-card" data-skill="mysql">
+                                <div class="skill-card" data-skill="django">
                                     <div class="skill-header">
                                         <div class="skill-icon">
-                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
-                                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
                                         </div>
-                                        <h4 class="skill-name">MySQL</h4>
+                                        <h4 class="skill-name">Django</h4>
                                     </div>
-                                    <p class="skill-desc">Relational database management</p>
                                 </div>
-                                <div class="skill-card" data-skill="mongodb">
+                                <div class="skill-card" data-skill="css">
                                     <div class="skill-header">
                                         <div class="skill-icon">
-                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
-                                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-                                            </svg>
+                                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layout"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
                                         </div>
-                                        <h4 class="skill-name">MongoDB</h4>
+                                        <h4 class="skill-name">CSS</h4>
                                     </div>
-                                    <p class="skill-desc">NoSQL document database</p>
                                 </div>
-                                <div class="skill-card" data-skill="postgresql">
+                                <div class="skill-card" data-skill="html">
                                     <div class="skill-header">
                                         <div class="skill-icon">
-                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
-                                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
                                         </div>
-                                        <h4 class="skill-name">PostgreSQL</h4>
+                                        <h4 class="skill-name">HTML</h4>
                                     </div>
-                                    <p class="skill-desc">Advanced relational database</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="skill-category">
-                            <h3 class="category-title">Data Visualization</h3>
-                            <div class="skills-row">
-                                <div class="skill-card" data-skill="powerbi">
-                                    <div class="skill-header">
-                                        <div class="skill-icon">
-                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                                <line x1="18" y1="20" x2="18" y2="10"></line>
-                                                <line x1="12" y1="20" x2="12" y2="4"></line>
-                                                <line x1="6" y1="20" x2="6" y2="14"></line>
-                                            </svg>
-                                        </div>
-                                        <h4 class="skill-name">PowerBI</h4>
-                                    </div>
-                                    <p class="skill-desc">Business intelligence and reporting</p>
-                                </div>
-                                <div class="skill-card" data-skill="tableau">
-                                    <div class="skill-header">
-                                        <div class="skill-icon">
-                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                                <line x1="18" y1="20" x2="18" y2="10"></line>
-                                                <line x1="12" y1="20" x2="12" y2="4"></line>
-                                                <line x1="6" y1="20" x2="6" y2="14"></line>
-                                            </svg>
-                                        </div>
-                                        <h4 class="skill-name">Tableau</h4>
-                                    </div>
-                                    <p class="skill-desc">Data visualization and analytics</p>
                                 </div>
                             </div>
                         </div>
@@ -323,11 +350,11 @@
                                 </div>
                                 <div class="soft-skill-item">
                                     <div class="skill-dot"></div>
-                                    <span>Leadership skills</span>
+                                    <span>Leadership</span>
                                 </div>
                                 <div class="soft-skill-item">
                                     <div class="skill-dot"></div>
-                                    <span>Risk Management</span>
+                                    <span>Problem Solving</span>
                                 </div>
                                 <div class="soft-skill-item">
                                     <div class="skill-dot"></div>
@@ -341,25 +368,13 @@
                                     <div class="skill-dot"></div>
                                     <span>Attention to Detail</span>
                                 </div>
-                                <div class="soft-skill-item">
+                                 <div class="soft-skill-item">
                                     <div class="skill-dot"></div>
-                                    <span>Problem solving</span>
+                                    <span>Project Management</span>
                                 </div>
-                                <div class="soft-skill-item">
+                                 <div class="soft-skill-item">
                                     <div class="skill-dot"></div>
-                                    <span>Networking</span>
-                                </div>
-                                <div class="soft-skill-item">
-                                    <div class="skill-dot"></div>
-                                    <span>Negotiation skills</span>
-                                </div>
-                                <div class="soft-skill-item">
-                                    <div class="skill-dot"></div>
-                                    <span>Decision making</span>
-                                </div>
-                                <div class="soft-skill-item">
-                                    <div class="skill-dot"></div>
-                                    <span>Presentation skills</span>
+                                    <span>Team Leadership</span>
                                 </div>
                             </div>
                         </div>
@@ -372,13 +387,13 @@
                 <h2 class="section-title">ACTIVITIES & INTERESTS</h2>
                 <div class="activities-list">
                     <div class="activity-item">
-                        <p>• Executive Committee member President of the Data Scientist's Club of NIBM (2024 - Present)</p>
+                        <p>• Secretary of the Data Scientist’s Club of NIBM (Apr 2024 - May 2025)</p>
                     </div>
                     <div class="activity-item">
-                        <p>• Committee member of the Rotaract Club of NIBM (2024 - Present)</p>
+                        <p>• Committee Member of the Rotaract Club of NIBM (Feb 2022 - Present)</p>
                     </div>
                     <div class="activity-item">
-                        <p>• Following AWS Cloud Foundations preparation course at University of Moratuwa.</p>
+                        <p>• Student Volunteer at Rotaract Club of NIBM (Jun 2023 - Present)</p>
                     </div>
                 </div>
             </section>
@@ -389,25 +404,84 @@
     <div class="projects-list">
         <!-- Project 1 -->
         <div class="project-item">
-            <h3 class="project-title">Machine Learning Model for Classification</h3>
-            <p class="project-subtitle">UCSC Training Course Final Project</p>
+            <h3 class="project-title">TweetPulse Pro - Real-Time Twitter Sentiment Analytics</h3>
+            <p class="project-subtitle">Aug 2025 - Present</p>
             <button class="project-toggle-btn" data-target="project-1-details">View Details</button>
             <div id="project-1-details" class="project-details" style="display: none;">
-                <p class="project-desc">Developed and implemented a classification model using Scikit-learn to predict customer churn. The project involved data cleaning, feature engineering, and model evaluation, achieving an accuracy of 85%.</p>
-                <p><b>Technologies Used:</b> Python, Pandas, Scikit-learn, Matplotlib</p>
-                <a href="https://github.com/Manula-Fernando?tab=repositories" target="_blank" class="project-link">View on GitHub</a>
+                <p class="project-desc">TweetPulse Pro is a real-time sentiment analytics platform for Twitter. It ingests live data with Apache Kafka, classifies sentiment with PySpark ML, stores results in MongoDB, and visualizes insights in a modern Django dashboard.</p>
+                <p><b>Technologies Used:</b> Python, Apache Spark (PySpark), Apache Kafka, MongoDB, Django, Flask, Docker, Chart.js</p>
+                <a href="https://github.com/Manula-Fernando/TweetPulse-Pro" target="_blank" class="project-link">View on GitHub</a>
             </div>
         </div>
         <!-- Project 2 -->
         <div class="project-item">
-            <h3 class="project-title">Academic Data Science Projects</h3>
-            <p class="project-subtitle">NIBM Academic Projects</p>
+            <h3 class="project-title">Ko Mask: A Face Mask Detection using YOLOv8s model and MLops</h3>
+            <p class="project-subtitle">Jun 2025 - Present</p>
             <button class="project-toggle-btn" data-target="project-2-details">View Details</button>
             <div id="project-2-details" class="project-details" style="display: none;">
-                 <p class="project-desc">A comprehensive portfolio including Data Analysis, Machine Learning, Dashboarding, and Deep Learning projects completed during academic studies. This includes a sales dashboard in PowerBI and a sentiment analysis model using TensorFlow.</p>
-                <p><b>Technologies Used:</b> Tableu, PowerBI, HTML, SQL, R, Python</p>
-                 <a href="https://github.com/Manula-Fernando?tab=repositories" target="_blank" class="project-link">Explore on GitHub</a>
+                 <p class="project-desc">Ko Mask is an end-to-end MLOps project for face mask detection. It features automated model training (YOLOv8s), inference APIs, monitoring dashboards, and drift detection, all orchestrated with Docker, DVC, and CI/CD best practices.</p>
+                <p><b>Technologies Used:</b> MLOps, CI/CD, Docker, DVC, GitHub Actions, System Monitoring, Test Automation, Computer Vision</p>
+                 <a href="https://github.com/Manula-Fernando/ko-mask-face-mask-detection-using-YOLOv8s-model-and-MLops" target="_blank" class="project-link">Explore on GitHub</a>
             </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-item">
+            <h3 class="project-title">FinSight AI: Financial Document Classifier + Privacy OCR</h3>
+            <button class="project-toggle-btn" data-target="project-3-details">View Details</button>
+            <div id="project-3-details" class="project-details" style="display: none;">
+                 <p class="project-desc">FinSight AI classifies scanned financial documents (bank statements, salary slips, income tax returns, utility bills, cheques, etc.) and extracts key fields (amounts, dates, invoice numbers) using pluggable OCR backends.</p>
+                <p><b>Technologies Used:</b> Text Extraction, Financial Document Classification using ML</p>
+                 <a href="https://github.com/Manula-Fernando/finsight-ai-financial-doc-classifier" target="_blank" class="project-link">Explore on GitHub</a>
+            </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="project-item">
+            <h3 class="project-title">SerenDipity InsiGhts: Sri Lanka Tourism Dashboard 🌴</h3>
+            <button class="project-toggle-btn" data-target="project-4-details">View Details</button>
+            <div id="project-4-details" class="project-details" style="display: none;">
+                 <p class="project-desc">SerenDipity InsiGhts is an interactive data visualization platform built with Dash and Plotly that provides comprehensive analytics on tourist arrivals to Sri Lanka.</p>
+                <p><b>Technologies Used:</b> DASH, Plotly, Tourism Data Analysis</p>
+                 <a href="https://github.com/Manula-Fernando/SerenDipity-Insights" target="_blank" class="project-link">Explore on GitHub</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications Tab -->
+<section id="certifications" class="tab-content">
+    <h2 class="section-title">LICENSES & CERTIFICATIONS</h2>
+    <div class="education-list">
+        <div class="education-item">
+            <h3 class="education-title">Elements of AI</h3>
+            <p class="education-date">University of Helsinki | Issued Jan 2026</p>
+        </div>
+        <div class="education-item">
+            <h3 class="education-title">AWS Academy Graduate - AWS Academy Cloud Foundations</h3>
+            <p class="education-date">Amazon Web Services (AWS) | Issued Jun 2025</p>
+        </div>
+        <div class="education-item">
+            <h3 class="education-title">AWS Educate Introduction to Generative AI</h3>
+            <p class="education-date">Amazon Web Services (AWS) | Issued Jun 2025</p>
+        </div>
+        <div class="education-item">
+            <h3 class="education-title">AWS Educate Machine Learning Foundations</h3>
+            <p class="education-date">Amazon Web Services (AWS) | Issued Jun 2025</p>
+        </div>
+        <div class="education-item">
+            <h3 class="education-title">Advanced Diploma in Data Science</h3>
+            <p class="education-date">National Institute of Business Management (NIBM - Sri Lanka) | Issued Aug 2024</p>
+        </div>
+        <div class="education-item">
+            <h3 class="education-title">Training Course in Data Science with Python</h3>
+            <p class="education-date">University of Colombo School of Computing | Issued Nov 2023</p>
+        </div>
+        <div class="education-item">
+            <h3 class="education-title">Python (Basic)</h3>
+            <p class="education-date">HackerRank | Issued Sep 2023</p>
+        </div>
+        <div class="education-item">
+            <h3 class="education-title">Diploma in Infomation Technology</h3>
+            <p class="education-date">BCAS Campus | Issued Oct 2021</p>
         </div>
     </div>
 </section>
@@ -423,3 +497,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
